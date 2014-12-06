@@ -33,7 +33,7 @@ df = df.reset_index()
 X = df[col[0:27]]
 X = X.as_matrix()
 
-y = df[col[27:]]
+y = df[col[28]]
 y = y.as_matrix()
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30, 
